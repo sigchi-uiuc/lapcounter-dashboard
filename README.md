@@ -25,6 +25,13 @@ Poopsicles. If you see this, it means all is well.
     * /info/<input_users>/data
         * returns the user's name and a list of laps
         * {
+            "info": {
+                "average": 5.5,
+                "max_lap_time": 10,
+                "min_lap_time": 1,
+                "num_laps": 2,
+                "total_time": 11
+            }
             "laps": [
                 {
                   "duration": 10,
